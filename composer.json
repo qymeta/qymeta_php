@@ -29,5 +29,5 @@
         "清元链",
         "清元数藏"
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
