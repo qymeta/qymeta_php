@@ -10,7 +10,7 @@
 
 ### Installation
 ```
-go get github.com/qymeta/qychan_go_sdk
+
 ```
 
 
