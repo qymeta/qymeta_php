@@ -10,12 +10,12 @@
 
 ### Installation
 ```
-
+composer require qymeta/qymeta_php
 ```
 
 
 
-### qychan_go_sdk Start
+### qymeta_php Start
 
 ```
 use Qymeta\Qymeta;
