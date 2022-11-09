@@ -1,0 +1,33 @@
+{
+    "name": "qymeta/qymeta_php",
+    "description": "qymeta",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Qymeta\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Qymeta\\":"src/"
+        }
+    },
+    "homepage":"https://github.com/qymeta",
+    "require": {
+        "php": ">=7.3.0",
+        "ext-curl": "*"
+    },
+    "authors": [
+        {
+            "name": "qymeta",
+            "email": "723617566@qq.com",
+            "homepage":"https://github.com/qymeta"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "清元链",
+        "清元数藏"
+    ],
+    "minimum-stability": "dev"
+}
