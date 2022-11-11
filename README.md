@@ -19,8 +19,18 @@ composer require qymeta/qymeta_php
 
 ```
 use Qymeta\Qymeta;
-
-$resources = Qymeta::createAccountAddress($appid,$secret);
+/**
+* 创建NFT资源
+* $appid 平台appid
+* $secret 平台秘钥
+* $author 作者
+* $title NFT资源名称
+* $series_name 系列名称
+* $series_id 系列ID
+* $url NFT资源地址
+* $address NFT拥有者链账户
+*/
+$resources = Qymeta::CreateNft($appid,$secret,$author,$title,$series_name,$series_id,$url,$address,$note='')
 var_dump($resources);
 ```
 
